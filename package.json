@@ -8,7 +8,9 @@
   "repository": "developit/babel-preset-preact",
   "main": "index.js",
   "dependencies": {
+    "babel-plugin-syntax-flow": "^6.0.2",
     "babel-plugin-syntax-jsx": "^6.0.2",
+    "babel-plugin-transform-flow-strip-types": "^6.0.2",
     "babel-plugin-transform-react-jsx": "^6.0.2"
   }
 }
