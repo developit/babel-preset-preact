@@ -1,16 +1,16 @@
 {
   "name": "babel-preset-preact",
-  "version": "1.0.0",
-  "description": "Babel preset to transform JSX into h() calls",
+  "version": "1.0.1",
+  "description": "Babel preset to transform JSX into h() calls.",
   "author": "Jason Miller <jason@developit.ca>",
   "homepage": "https://github.com/developit/babel-preset-preact",
   "license": "MIT",
   "repository": "developit/babel-preset-preact",
   "main": "index.js",
   "dependencies": {
-    "babel-plugin-syntax-flow": "^6.0.2",
     "babel-plugin-syntax-jsx": "^6.0.2",
-    "babel-plugin-transform-flow-strip-types": "^6.0.2",
     "babel-plugin-transform-react-jsx": "^6.0.2"
+  },
+  "devDependencies": {
   }
 }
