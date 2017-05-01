@@ -5,13 +5,13 @@ Babel preset to transform JSX into h() calls.
 
 Via NPM
 
-```javascript
+```js
 npm install babel-preset-preact --save-dev
 ```
 
 or Yarn
 
-```javascript
+```js
 yarn add babel-preset-preact --dev
 ```
 
@@ -35,8 +35,6 @@ Via package.json
      "presets": [
        "es2015",
        "preact"
-     ],
-     "plugins": [
      ]
    },
    ...
