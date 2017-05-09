@@ -1,4 +1,6 @@
 # babel-preset-preact
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/babel-preset-preact.svg)](https://greenkeeper.io/)
 Babel preset to transform JSX into h() calls.
 
 ### Install
