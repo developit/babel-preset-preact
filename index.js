@@ -2,7 +2,7 @@ var transformReactJsx = require("@babel/plugin-transform-react-jsx");
 
 module.exports = {
   plugins: [
-    [ transformReactJsx, { "pragma": "preact.h" }],
+    [ transformReactJsx, { "pragma": "h" }],
     require("@babel/plugin-syntax-jsx"),
   ]
 };
