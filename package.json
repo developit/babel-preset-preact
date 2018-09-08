@@ -8,9 +8,8 @@
   "repository": "developit/babel-preset-preact",
   "main": "index.js",
   "dependencies": {
-    "babel-plugin-syntax-jsx": "^6.0.2",
-    "babel-plugin-transform-react-jsx": "^6.0.2"
+    "@babel/plugin-syntax-jsx": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
