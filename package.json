@@ -14,7 +14,8 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "@babel/plugin-transform-react-jsx": "^7.3.0"
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "babel-plugin-jsx-pragmatic": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.5.0"
