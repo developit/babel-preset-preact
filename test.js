@@ -10,5 +10,5 @@ const { code } = babel.transformSync('function Foo(){return <div a b={2} />;}', 
 	compact: true
 });
 
-assert.equal(code, 'function Foo(){return h("div",{a:true,b:2});}');
+assert.equal(code, 'import{h}from"preact";function Foo(){return h("div",{a:true,b:2});}');
 console.log('passed');
